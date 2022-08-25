@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap');
+
+*
+{
+  font-family: 'Anek Telugu', sans-serif !important;
+  font-size: 1.3rem;
+}
+:root
+{
+  --white: #fff;
+}
+.text-white
+{
+  color: var(--white);
+}
+.text-pink
+{
+  color: #99164b;
+}
+.text-grey
+{
+  color: #333333;
+}
+.uk-navbar-nav>li>a, .uk-offcanvas-bar .uk-nav-primary>li>a  {
+  color: var(--white) !important;
+}
+.title
+{
+  color: #3d3c3c;
+  font-size: 4rem;
+  text-align: center;
+}
+.title span
+{
+  color: #99164b;
+  font-size: 4rem;
+}

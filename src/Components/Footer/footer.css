@@ -1,0 +1,21 @@
+
+  .footer_widget_title {
+    line-height: 1;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+  }
+  .footer_useful_links li {
+    line-height: 1;
+  }
+  .footer_useful_links li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .footer_useful_links a:hover {
+    color: #99164b !important;
+    text-decoration: none;
+  }
+  .uil
+  {
+    font-size: 1.8rem !important;
+  }
