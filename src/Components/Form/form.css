@@ -1,0 +1,76 @@
+/* input contact form */
+input {
+    background: transparent;
+  }
+  #form {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 15px;
+  }
+  .input-box, .textarea{
+    position: relative;
+    margin: 20px 0;
+  }
+  .input-box .input-label, .textarea .input-label{
+    position: absolute;
+    color: #80868b;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: calc(100% - (2 * 8px));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 8px;
+    top: 13px;
+    padding: 0 8px;
+    transition: 250ms;
+    user-select: none;
+    pointer-events: none;
+  }
+  .textarea .input-1
+  {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    border-radius: 4px;
+    color: #202124;
+    border: 2px solid #2e2b2b;
+    padding: 13px 15px;
+    transition: 250ms;
+  }
+  .input-box .input-1  {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    color: #202124;
+    border: 2px solid #2e2b2b;
+    padding: 13px 15px;
+    transition: 250ms;
+  }
+  .input-box .input-1:focus, .textarea .input-1:focus {
+    outline: none;
+    border: 2px solid #99164b;
+    transition: 250ms;
+  }
+  .input-box.focus .input-label, .input-box.active .input-label, .textarea.focus .input-label, .textarea.active .input-label {
+    color: rgb(17, 15, 14);
+    top: -8px;
+    background: #fff;
+    font-size: 1rem;
+    transition: 250ms;
+  }
+  .custom-sect-client
+  {
+    box-shadow: rgba(0, 0, 0, 0.1);
+  }
+  .uk-button-danger
+  {
+    background-color: #99164b;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .uk-button-danger:hover
+  {
+    background-color: #2e2b2b;
+  }

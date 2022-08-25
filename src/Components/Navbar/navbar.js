@@ -31,12 +31,10 @@ function navbar() {
                         <Link to="service" spy={true} smooth={true}>Service</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                    <Link to="team" spy={true} smooth={true}>Team</Link>
+                    <Link to="team" spy={true} smooth={true}>Testimonials</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                        <a href="#">
-                            Contact
-                        </a>
+                    <Link to="contact" spy={true} smooth={true}>Contact</Link>
                     </li>
                     <li className='uk-hidden@m custom_nav_menu'>
                         <a class="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
@@ -61,12 +59,10 @@ function navbar() {
                                     <Link to="service" spy={true} smooth={true}>Service</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                    <Link to="team" spy={true} smooth={true}>Team</Link>
+                                    <Link to="team" spy={true} smooth={true}>Testimonials</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <a href="#">
-                                            Contact
-                                        </a>
+                                        <Link to="contact" spy={true} smooth={true}>Contact</Link>
                                     </li>
                                 </ul>    
                             </div>

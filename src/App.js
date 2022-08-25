@@ -5,6 +5,7 @@ import Banner from './Components/Banner/banner';
 import About from './Components/About/about';
 import Product from './Components/Product/product';
 import Testimonal from './Components/Testimonal/test';
+import Contact from './Components/Contact/contact';
 import Footer from './Components/Footer/footer';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
       </div>
       <div id="team">
       <Testimonal/>
-      </div>     
+      </div>  
+      <div id="contact">
+      <Contact/>
+      </div>        
       <Footer/>
     </>
   );
