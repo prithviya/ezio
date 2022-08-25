@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css'
 import Images from '../../Components/Constant/assets';
+import { Link } from "react-scroll";
 
 function navbar() {
   return (
@@ -19,24 +20,18 @@ function navbar() {
             <div class="uk-navbar-right uk-margin-small-right">
                 <ul class="uk-navbar-nav">
                     <li className='uk-visible@m custom_nav_menu'>
-                        <a href="#">
-                            Home
-                        </a>
+                        
+                        <Link to="home" spy={true} smooth={true}>Home</Link>
+                        
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                        <a href="#">
-                            About
-                        </a>
+                        <Link to="about" spy={true} smooth={true}>About</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                        <a href="#">
-                            Services
-                        </a>
+                        <Link to="service" spy={true} smooth={true}>Service</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                        <a href="#">
-                            Team
-                        </a>
+                    <Link to="team" spy={true} smooth={true}>Team</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
                         <a href="#">
@@ -57,24 +52,16 @@ function navbar() {
                                     </li>
                                     <hr/>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <a href="#">
-                                            Home
-                                        </a>
+                                    <Link to="home" spy={true} smooth={true}>Home</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <a href="#">
-                                            About
-                                        </a>
+                                    <Link to="about" spy={true} smooth={true}>About</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <a href="#">
-                                            Services
-                                        </a>
+                                    <Link to="service" spy={true} smooth={true}>Service</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <a href="#">
-                                            Team
-                                        </a>
+                                    <Link to="team" spy={true} smooth={true}>Team</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
                                         <a href="#">

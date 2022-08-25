@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation_Bar from '../Navbar/navbar';
 
+
 function banner() {
   return (
     <div>

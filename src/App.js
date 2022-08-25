@@ -10,10 +10,18 @@ import Footer from './Components/Footer/footer';
 function App() {
   return (
     <>
-      <Banner/>
+      <div id="home">
+        <Banner />
+      </div>
+      <div id="about">
       <About/>
-      <Product/>
+      </div>
+      <div id="service"> 
+        <Product/>
+      </div>
+      <div id="team">
       <Testimonal/>
+      </div>     
       <Footer/>
     </>
   );
